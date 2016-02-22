@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 03dae0d058e4a4a42a7a28fdede41d7e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sky
+    21300002: small_cloud
+    21300004: small_cloud_outlined
+    21300006: small_puffy_cloud
+    21300008: small_thundercloud
+    21300010: shaded_small_cloud
+    21300012: shaded_small_cloud_outlined
+    21300014: small_thundercloud_v2
+    21300016: large_white_cloud_v1
+    21300018: sun
+    21300020: large_white_cloud_v1_outlined
+    21300022: large_white_cloud_v2
+    21300024: sun
+    21300026: small_thundercloud_v1
+    21300028: large_thundercloud_v1
+    21300030: yellow_moon
+    21300032: white_moon
+    21300034: white_moon_outlined
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: small_cloud
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 286
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: small_cloud_outlined
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 286
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: small_puffy_cloud
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 300
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: small_thundercloud_v1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 278
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shaded_small_cloud
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 249
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shaded_small_cloud_outlined
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 249
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: small_thundercloud_v2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 253
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: large_white_cloud_v1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 128
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: large_thundercloud_v1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 210
+        width: 112
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: large_white_cloud_v1_outlined
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 129
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: large_white_cloud_v2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 143
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sun
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: yellow_moon
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 69
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: white_moon
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 69
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: white_moon_outlined
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 68
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

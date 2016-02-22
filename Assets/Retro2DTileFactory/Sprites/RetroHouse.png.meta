@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: a18428d4b1eba42b8ac2573fba485012
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RetroHouse
+    21300002: RetroHouse_0
+    21300004: RetroHouse_1
+    21300006: RetroHouse_2
+    21300008: RetroHouse_3
+    21300010: RetroHouse_4
+    21300012: RetroHouse_5
+    21300014: RetroHouse_6
+    21300016: RetroHouse_7
+    21300018: RetroHouse_8
+    21300020: RetroHouse_9
+    21300022: RetroHouse_10
+    21300024: RetroHouse_11
+    21300026: RetroHouse_12
+    21300028: RetroHouse_13
+    21300030: RetroHouse_14
+    21300032: RetroHouse_15
+    21300034: RetroHouse_16
+    21300036: RetroHouse_17
+    21300038: RetroHouse_18
+    21300040: RetroHouse_19
+    21300042: RetroHouse_20
+    21300044: RetroHouse_21
+    21300046: RetroHouse_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RetroHouse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 280
+        width: 82
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 120
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 237
+        width: 120
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 88
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 188
+        width: 116
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 88
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 141
+        width: 87
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 107
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 107
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 107
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 107
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 73
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 23
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 83
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 83
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 83
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 83
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 83
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RetroHouse_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 83
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
