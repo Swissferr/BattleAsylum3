@@ -233,11 +233,11 @@ public class PlayerController : MonoBehaviour
             takeDamage();
         }
 
-        if (other.gameObject.CompareTag("Gun"))
-        {
-            hasAGun = true;
-            bulletsRemaining = 2;
-        }
+        //if (other.gameObject.CompareTag("Gun"))
+        //{
+        //    hasAGun = true;
+        //    bulletsRemaining = 2;
+        //}
         //triggers when the player is hit by a bullet.
 
         if (other.gameObject.tag == "Bullet")
@@ -245,11 +245,11 @@ public class PlayerController : MonoBehaviour
             takeDamage();           
         }
 
-        //Stage hazards will kill the player instantly, regardlessùof his health.
-        if (other.gameObject.CompareTag("Hazard"))
-        {
-            dead = true;
-        }
+        //Stage hazards will kill the player instantly, regardless of his health.
+        //if (other.gameObject.CompareTag("Hazard"))
+        //{
+        //    dead = true;
+        //}
     }
 
     //Updates the animator.
