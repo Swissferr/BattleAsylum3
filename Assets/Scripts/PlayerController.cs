@@ -33,7 +33,6 @@ public class PlayerController : MonoBehaviour
     private bool wallJump = false;
     private bool canWallJump = false;
     private float moveHorizontal;
-    private bool shoot = false;
 
     // Gun stuff
     public bool hasAGun = false;
@@ -231,45 +230,26 @@ public class PlayerController : MonoBehaviour
         //The player loses 1 health if he gets hit by a sword.
         if (other.gameObject.CompareTag("SwordHitbox"))
         {
-            if (health > 0)
-                health--;
-            else
-            {
-                //should never happen
-            }
-
-            //If his health is at 0, he dies, which is not good.
-            if (health == 0)
-            {
-                dead = true;
-                anime.SetBool("DED", dead);
-            }
-
-            //The player instantly dies if he hits a stage hazard.
-            //if (other.gameObject.CompareTag("Hazard"))
-            //    dead = true;
+            takeDamage();
         }
-        else if (other.gameObject.CompareTag("Gun"))
+
+        //if (other.gameObject.CompareTag("Gun"))
+        //{
+        //    hasAGun = true;
+        //    bulletsRemaining = 2;
+        //}
+        //triggers when the player is hit by a bullet.
+
+        if (other.gameObject.tag == "Bullet")
         {
-            hasAGun = true;
+            takeDamage();           
         }
-        else if (other.gameObject.CompareTag("Bullet"))
-        {
-            if (health > 0)
-                health--;
-            else
-            {
-                //should never happen
-            }
 
-            //If his health is at 0, he dies, which is not good.
-            if (health == 0)
-            {
-                dead = true;
-                anime.SetBool("DED", dead);
-            }
-            Destroy(other);
-        }
+        //Stage hazards will kill the player instantly, regardless of his health.
+        //if (other.gameObject.CompareTag("Hazard"))
+        //{
+        //    dead = true;
+        //}
     }
 
     //Updates the animator.
@@ -300,4 +280,22 @@ public class PlayerController : MonoBehaviour
     {
         return dead;
     }
+
+    public void takeDamage()
+    {
+        if (health > 0)
+            health--;
+        else
+        {
+            //should never happen
+        }
+
+        //If his health is at 0, he dies, which is not good.
+        if (health == 0)
+        {
+            dead = true;
+            anime.SetBool("DED", dead);
+        }
+    }
 }
+

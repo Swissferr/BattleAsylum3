@@ -26,14 +26,15 @@ public class BulletScript : MonoBehaviour
             Destroy(gameObject);
     }
 
-    //void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    Destroy(gameObject);
-    //}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            Destroy(gameObject);
+    }
 
     //void OnCollisionEnter2D(Collision2D coll)
     //{
-    //    if (!coll.gameObject.CompareTag("Player"))
+    //    if (coll.gameObject.CompareTag("Player"))
     //        Destroy(gameObject);
     //}
 }
